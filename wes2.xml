@@ -35,5 +35,56 @@
         </next>
       </block>
     </statement>
+    <next>
+      <block type="robot_delay" id="261" inline="true">
+        <value name="DELAY">
+          <block type="math_number" id="282">
+            <field name="NUM">5000</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_forward" id="203">
+            <next>
+              <block type="robot_delay" id="205" inline="true">
+                <value name="DELAY">
+                  <block type="math_number" id="295">
+                    <field name="NUM">5000</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="movement_forward" id="215">
+                    <next>
+                      <block type="robot_delay" id="217" inline="true">
+                        <value name="DELAY">
+                          <block type="math_number" id="302">
+                            <field name="NUM">5000</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="movement_reverse" id="237">
+                            <next>
+                              <block type="robot_delay" id="239" inline="true">
+                                <value name="DELAY">
+                                  <block type="math_number" id="312">
+                                    <field name="NUM">5000</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="movement_reverse" id="259"></block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
   </block>
 </xml>
