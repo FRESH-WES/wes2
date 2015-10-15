@@ -1,0 +1,10 @@
+{
+    "name": "wes2",
+    "version": "1.0.0",
+    "manifest_version": 1,
+    "project_type": "application",
+    "executable_type": "scratch",
+    "executable": "wes2.xml",
+    "author": "FRESH-WES",
+    "minimum_firmware_version": 42
+}
